@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DB_MOTOR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DB_MOTOR">
+				<Option output="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/DB_MOTOR.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 DB_MOTOR"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DB_MOTOR/fast">
+				<Option output="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/DB_MOTOR.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 DB_MOTOR/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Registro.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Registro.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloque.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloque.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquecampo.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquecampo.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquemaestro.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquemaestro.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloqueregistro.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloqueregistro.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquetabla.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquetabla.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/campo.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/campo.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/main.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadorbloques.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadorbloques.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadortablas.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadortablas.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/tabla.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/tabla.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

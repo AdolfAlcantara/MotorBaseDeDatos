@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1501662165 source:c:\users\chronos-laptop\documents\ed1\db_motor\main.cpp
+	<iostream>
+	"manejadortablas.h"
+
+1501135188 source:c:\users\chronos-laptop\documents\ed1\db_motor\bloque.cpp
+	"bloque.h"
+
+1501125980 c:\users\chronos-laptop\documents\ed1\db_motor\bloque.h
+	"datafile.h"
+	<string.h>
+
+1501351125 c:\users\chronos-laptop\documents\ed1\db_motor\datafile.h
+	<stdio.h>
+
+1501648911 source:c:\users\chronos-laptop\documents\ed1\db_motor\datafile.cpp
+	"datafile.h"
+	<iostream>
+
+1501662273 source:c:\users\chronos-laptop\documents\ed1\db_motor\tabla.cpp
+	"tabla.h"
+	<iostream>
+
+1501646402 c:\users\chronos-laptop\documents\ed1\db_motor\tabla.h
+	<string.h>
+	"datafile.h"
+
+1501136979 source:c:\users\chronos-laptop\documents\ed1\db_motor\bloquemaestro.cpp
+	"bloquemaestro.h"
+
+1501137379 c:\users\chronos-laptop\documents\ed1\db_motor\bloquemaestro.h
+	"datafile.h"
+	"string.h"
+
+1501625032 source:c:\users\chronos-laptop\documents\ed1\db_motor\bloquetabla.cpp
+	"bloquetabla.h"
+
+1501622602 c:\users\chronos-laptop\documents\ed1\db_motor\bloquetabla.h
+	"tabla.h"
+	"datafile.h"
+	<list>
+
+1501569429 source:c:\users\chronos-laptop\documents\ed1\db_motor\manejadorbloques.cpp
+	"manejadorbloques.h"
+	<iostream>
+
+1501390704 c:\users\chronos-laptop\documents\ed1\db_motor\manejadorbloques.h
+	"bloquetabla.h"
+	"bloquemaestro.h"
+
+1501178297 source:c:\users\chronos-laptop\documents\ed1\db_motor\bloquecampo.cpp
+	"bloquecampo.h"
+
+1501178297 c:\users\chronos-laptop\documents\ed1\db_motor\bloquecampo.h
+
+1501660674 source:c:\users\chronos-laptop\documents\ed1\db_motor\manejadortablas.cpp
+	"manejadortablas.h"
+	<iostream>
+
+1501624004 c:\users\chronos-laptop\documents\ed1\db_motor\manejadortablas.h
+	"bloquetabla.h"
+	"bloquemaestro.h"
+	"manejadorbloques.h"
+

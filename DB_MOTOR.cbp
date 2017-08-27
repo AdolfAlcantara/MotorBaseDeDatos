@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DB_MOTOR" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DB_MOTOR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DB_MOTOR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="bloque.cpp" />
+		<Unit filename="bloque.h" />
+		<Unit filename="bloquecampo.cpp" />
+		<Unit filename="bloquecampo.h" />
+		<Unit filename="bloquemaestro.cpp" />
+		<Unit filename="bloquemaestro.h" />
+		<Unit filename="bloquetabla.cpp" />
+		<Unit filename="bloquetabla.h" />
+		<Unit filename="datafile.cpp" />
+		<Unit filename="datafile.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="manejadorbloques.cpp" />
+		<Unit filename="manejadorbloques.h" />
+		<Unit filename="manejadortablas.cpp" />
+		<Unit filename="manejadortablas.h" />
+		<Unit filename="tabla.cpp" />
+		<Unit filename="tabla.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
