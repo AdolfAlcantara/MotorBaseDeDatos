@@ -20,6 +20,15 @@ set(SOURCE_FILES
         manejadortablas.cpp
         manejadortablas.h
         tabla.cpp
-        tabla.h campo.cpp campo.h Registro.cpp Registro.h bloqueregistro.cpp bloqueregistro.h)
+        tabla.h
+        campo.cpp
+        campo.h
+        Registro.cpp
+        Registro.h
+        bloqueregistro.cpp
+        bloqueregistro.h
+        jsonEstruct.cpp
+        jsonEstruct.h
+        json.hpp)
 
 add_executable(DB_MOTOR ${SOURCE_FILES})

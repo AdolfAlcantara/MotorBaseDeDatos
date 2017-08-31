@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DB_MOTOR.dir/campo.cpp.obj"
   "CMakeFiles/DB_MOTOR.dir/Registro.cpp.obj"
   "CMakeFiles/DB_MOTOR.dir/bloqueregistro.cpp.obj"
+  "CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj"
   "DB_MOTOR.pdb"
   "DB_MOTOR.exe"
   "DB_MOTOR.exe.manifest"

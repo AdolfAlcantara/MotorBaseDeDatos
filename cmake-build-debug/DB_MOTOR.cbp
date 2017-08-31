@@ -130,6 +130,15 @@
 		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.h">
 			<Option target="DB_MOTOR"/>
 		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/json.hpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/jsonEstruct.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/jsonEstruct.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
 		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/main.cpp">
 			<Option target="DB_MOTOR"/>
 		</Unit>

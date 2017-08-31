@@ -70,7 +70,6 @@ char *BloqueRegistro::toChar()
         memcpy(&data[pos],&r->longitud,4);
         pos+=4;
         if(r->longitud==20) {
-            std::cout<<r->reg<<std::endl;
             memcpy(&data[pos], &r->reg[0], 20);
             pos += 20;
         }else{

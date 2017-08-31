@@ -338,6 +338,33 @@ datafile.cpp.s:
 	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/datafile.cpp.s
 .PHONY : datafile.cpp.s
 
+jsonEstruct.obj: jsonEstruct.cpp.obj
+
+.PHONY : jsonEstruct.obj
+
+# target to build an object file
+jsonEstruct.cpp.obj:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj
+.PHONY : jsonEstruct.cpp.obj
+
+jsonEstruct.i: jsonEstruct.cpp.i
+
+.PHONY : jsonEstruct.i
+
+# target to preprocess a source file
+jsonEstruct.cpp.i:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.i
+.PHONY : jsonEstruct.cpp.i
+
+jsonEstruct.s: jsonEstruct.cpp.s
+
+.PHONY : jsonEstruct.s
+
+# target to generate assembly for a file
+jsonEstruct.cpp.s:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.s
+.PHONY : jsonEstruct.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -479,6 +506,9 @@ help:
 	@echo ... datafile.obj
 	@echo ... datafile.i
 	@echo ... datafile.s
+	@echo ... jsonEstruct.obj
+	@echo ... jsonEstruct.i
+	@echo ... jsonEstruct.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

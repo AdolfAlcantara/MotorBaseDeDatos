@@ -62,6 +62,7 @@ void ManejadorTablas::ListarTablas()
             Tabla *t2 = *t;
             cout<<"nombre: "<<t2->nombre<<", Id: "<<t2->Id<<", idbp: "<<t2->IdBloquePadre<<endl;
             cout<<"pbc: "<<t2->PrimerBloqueCampos<<", ubc: "<<t2->UltimoBloqueCampos<<endl;
+            cout<<"pbr: "<<t2->PrimerBloqueDatos<<", ubr: "<<t2->UltimoBloqueDatos<<endl;
         }
     }
 }

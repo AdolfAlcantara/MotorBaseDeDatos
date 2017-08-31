@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquetabla.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/bloquetabla.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/campo.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/campo.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/datafile.cpp.obj"
+  "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/jsonEstruct.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/main.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/main.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadorbloques.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/manejadorbloques.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadortablas.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/manejadortablas.cpp.obj"
