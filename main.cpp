@@ -50,6 +50,7 @@ int main() {
         }
     }
 
+
 //    MT->mb->EscribirRegistro(t2,c,"Davila");
 //    MT->mb->EscribirRegistro(t2,c,"Reiner");
 //

@@ -14,14 +14,16 @@ public:
 
     //protected:
     char nombre[20];
-    int Id;
-    int IdBloquePadre;
-    int PrimerBloqueCampos;
-    int UltimoBloqueCampos;
-    int PrimerBloqueDatos;
-    int UltimoBloqueDatos;
+    int Id,
+    IdBloquePadre,
+    PrimerBloqueCampos,
+    UltimoBloqueCampos,
+    PrimerBloqueDatos,
+    UltimoBloqueDatos,
+    PrimerBloqueHash,
+    UltimoBloqueHash;
 
-    /*El peso de las tablas es de 44 */
+    /*El peso de las tablas es de 52 */
 
     //private:
     void charToBloque(char *data, int);
