@@ -368,6 +368,102 @@ CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj.provides: CMakeFiles/DB_MOTOR.dir/js
 CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj.provides.build: CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj
 
 
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj: CMakeFiles/DB_MOTOR.dir/flags.make
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj: ../Entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DB_MOTOR.dir\Entry.cpp.obj -c C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\Entry.cpp
+
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DB_MOTOR.dir/Entry.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\Entry.cpp > CMakeFiles\DB_MOTOR.dir\Entry.cpp.i
+
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DB_MOTOR.dir/Entry.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\Entry.cpp -o CMakeFiles\DB_MOTOR.dir\Entry.cpp.s
+
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.requires
+
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.provides: CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.provides.build
+.PHONY : CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.provides
+
+CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.provides.build: CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj
+
+
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj: CMakeFiles/DB_MOTOR.dir/flags.make
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj: ../BloqueHashTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DB_MOTOR.dir\BloqueHashTable.cpp.obj -c C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\BloqueHashTable.cpp
+
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\BloqueHashTable.cpp > CMakeFiles\DB_MOTOR.dir\BloqueHashTable.cpp.i
+
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\BloqueHashTable.cpp -o CMakeFiles\DB_MOTOR.dir\BloqueHashTable.cpp.s
+
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.requires
+
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.provides: CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.provides.build
+.PHONY : CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.provides
+
+CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.provides.build: CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj
+
+
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj: CMakeFiles/DB_MOTOR.dir/flags.make
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj: ../Idx_Entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DB_MOTOR.dir\Idx_Entry.cpp.obj -c C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\Idx_Entry.cpp
+
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\Idx_Entry.cpp > CMakeFiles\DB_MOTOR.dir\Idx_Entry.cpp.i
+
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\Idx_Entry.cpp -o CMakeFiles\DB_MOTOR.dir\Idx_Entry.cpp.s
+
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.requires
+
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.provides: CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.provides.build
+.PHONY : CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.provides
+
+CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.provides.build: CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj
+
+
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj: CMakeFiles/DB_MOTOR.dir/flags.make
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj: ../BloqueColision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DB_MOTOR.dir\BloqueColision.cpp.obj -c C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\BloqueColision.cpp
+
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\BloqueColision.cpp > CMakeFiles\DB_MOTOR.dir\BloqueColision.cpp.i
+
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\BloqueColision.cpp -o CMakeFiles\DB_MOTOR.dir\BloqueColision.cpp.s
+
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.requires
+
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.provides: CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.provides.build
+.PHONY : CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.provides
+
+CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.provides.build: CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj
+
+
 # Object files for target DB_MOTOR
 DB_MOTOR_OBJECTS = \
 "CMakeFiles/DB_MOTOR.dir/bloque.cpp.obj" \
@@ -382,7 +478,11 @@ DB_MOTOR_OBJECTS = \
 "CMakeFiles/DB_MOTOR.dir/campo.cpp.obj" \
 "CMakeFiles/DB_MOTOR.dir/Registro.cpp.obj" \
 "CMakeFiles/DB_MOTOR.dir/bloqueregistro.cpp.obj" \
-"CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj"
+"CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj" \
+"CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj" \
+"CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj" \
+"CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj" \
+"CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj"
 
 # External object files for target DB_MOTOR
 DB_MOTOR_EXTERNAL_OBJECTS =
@@ -400,11 +500,15 @@ DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/campo.cpp.obj
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/Registro.cpp.obj
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/bloqueregistro.cpp.obj
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj
+DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj
+DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj
+DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj
+DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/build.make
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/linklibs.rsp
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/objects1.rsp
 DB_MOTOR.exe: CMakeFiles/DB_MOTOR.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable DB_MOTOR.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Chronos-Laptop\Documents\ED1\DB_MOTOR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable DB_MOTOR.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DB_MOTOR.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -425,6 +529,10 @@ CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/campo.cpp.obj.requires
 CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/Registro.cpp.obj.requires
 CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/bloqueregistro.cpp.obj.requires
 CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/jsonEstruct.cpp.obj.requires
+CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj.requires
+CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj.requires
+CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj.requires
+CMakeFiles/DB_MOTOR.dir/requires: CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj.requires
 
 .PHONY : CMakeFiles/DB_MOTOR.dir/requires
 

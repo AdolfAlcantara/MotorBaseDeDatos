@@ -11,7 +11,7 @@ class Campo
 {
     public:
         Campo();
-        Campo(char*nom,int t);
+        Campo(char*nom,int t,int idc);
 
 //        void Escribir(DataFile*,int pos);
 //        void Cargar();
@@ -21,8 +21,9 @@ class Campo
         int tipo;
         int longitud;
         int IdBloquePadre;
+        int IdCampo;
 
-    //tamano del campo es 28
+    //tamano del campo es 36
 
 //    private:
         char*toChar();

@@ -13,9 +13,10 @@ Campo::Campo()
     tipo=0;
     longitud=0;
     IdBloquePadre=-1;
+    IdCampo=-1;
 }
 
-Campo::Campo(char *nom, int t)
+Campo::Campo(char *nom, int t,int idc)
 {
     strncpy(nombre,nom, sizeof(nombre)-1);
     nombre[19] = '\0';
@@ -26,6 +27,7 @@ Campo::Campo(char *nom, int t)
         longitud = 20;
     }
     IdBloquePadre=-1;
+    IdCampo=idc;
 }
 
 

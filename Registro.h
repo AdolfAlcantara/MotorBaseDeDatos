@@ -14,15 +14,20 @@ public:
     Registro();
     Registro(int);
 
-    void EscribirRegistro(char*d);
-    void EscribirRegistro(int d);
+    void EscribirRegistro(char*d,int idc);
+    void EscribirRegistro(int d,int idc);
 
     virtual ~Registro();
 
     char reg[20];
     int regdato;
     int longitud;
+    int idc;
 
+    /*
+     * Registros de cadena pesan 28
+     * Registros de int 12
+     * */
 };
 
 

@@ -1,13 +1,18 @@
 #ifndef TABLA_H
 #define TABLA_H
 #include <string.h>
+#include <list>
 #include "datafile.h"
+#include "Registro.h"
 
 class Tabla
 {
 public:
     Tabla();
     Tabla(char *nombre, int id, int idbp);
+//    std::list<Registro> getRegistros();
+//    std::list<Campo> getCampos();
+
     virtual ~Tabla();
 
     //
@@ -21,9 +26,10 @@ public:
     PrimerBloqueDatos,
     UltimoBloqueDatos,
     PrimerBloqueHash,
-    UltimoBloqueHash;
+    UltimoBloqueHash,
+    cantCampos;
 
-    /*El peso de las tablas es de 52 */
+    /*El peso de las tablas es de 56 */
 
     //private:
     void charToBloque(char *data, int);

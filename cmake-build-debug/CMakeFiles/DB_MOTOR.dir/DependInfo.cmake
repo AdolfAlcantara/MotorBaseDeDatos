@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj"
+  "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj"
+  "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj"
+  "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Registro.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/Registro.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloque.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/bloque.cpp.obj"
   "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquecampo.cpp" "C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/cmake-build-debug/CMakeFiles/DB_MOTOR.dir/bloquecampo.cpp.obj"

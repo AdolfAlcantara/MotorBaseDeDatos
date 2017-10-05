@@ -21,7 +21,7 @@ Tabla* ManejadorTablas::CrearTablas(char nombre[20])
         bt->Tablas->push_back(newTable);
         bt->CantidadTablas++;
         bt->Escribir(archivo);
-    }else if(bt->CantidadTablas<10){
+    }else if(bt->CantidadTablas<9){
         newTable = new Tabla(nombre,t->Id+1,bt->NumeroBloque);
         bt->Tablas->push_back(newTable);
         bt->CantidadTablas++;
@@ -82,10 +82,22 @@ void ManejadorTablas::ListarTablas()
 //    }
 //}
 
-void ManejadorTablas::CargarTablas(BloqueTabla*bt)
+
+//carga todas las tablas den una lista
+std::list<Tabla*>* ManejadorTablas::CargarTablas()
 {
-
-
+    std::list<Tabla*>*tablas = new std::list<Tabla*>;
+    int siguiente = bm->PrimerBloqueTabla;
+    do{
+        BloqueTabla*bt = new BloqueTabla(siguiente);
+        bt->Cargar(archivo);
+        for(std::list<Tabla*>::iterator it = bt->Tablas->begin();it!=bt->Tablas->end();it++){
+            Tabla*t = *it;
+            tablas->push_back(t);
+        }
+        siguiente = bt->sig;
+    }while(siguiente!=-1);
+    return tablas;
 }
 
 void ManejadorTablas::LlenarListaBloquesTabla()

@@ -22,8 +22,8 @@ class BloqueTabla
 
         /*
         El tamano del header de bloque tabla es de 16
-        El tamano del header de las tablas es de 44
-        512-16 = 496/44 = 11.27
+        El tamano del las tablas es de 52
+        512-16 = 496/52 = 9.27
         Cantidad de tablas disponibles por bloque   = 11
         */
 

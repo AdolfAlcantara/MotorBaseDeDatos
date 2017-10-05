@@ -56,6 +56,8 @@ char* BloqueTabla::toChar()
             pos += 4;
             memcpy(&data[pos], &t->IdBloquePadre, 4);
             pos += 4;
+            memcpy(&data[pos],&t->cantCampos,4);
+            pos+=4;
             memcpy(&data[pos], &t->PrimerBloqueCampos, 4);
             pos += 4;
             memcpy(&data[pos], &t->UltimoBloqueCampos, 4);
@@ -64,6 +66,10 @@ char* BloqueTabla::toChar()
             pos += 4;
             memcpy(&data[pos], &t->UltimoBloqueDatos, 4);
             pos += 4;
+            memcpy(&data[pos],&t->PrimerBloqueHash,4);
+            pos+=4;
+            memcpy(&data[pos],&t->UltimoBloqueHash,4);
+            pos+=4;
         //}
     }
     return data;
@@ -90,6 +96,8 @@ void BloqueTabla::charToBloque(char* data)
         pos+=4;
         memcpy(&t->IdBloquePadre,&data[pos],4);
         pos+=4;
+        memcpy(&t->cantCampos,&data[pos],4);
+        pos+=4;
         memcpy(&t->PrimerBloqueCampos,&data[pos],4);
         pos+=4;
         memcpy(&t->UltimoBloqueCampos,&data[pos],4);
@@ -97,6 +105,10 @@ void BloqueTabla::charToBloque(char* data)
         memcpy(&t->PrimerBloqueDatos,&data[pos],4);
         pos+=4;
         memcpy(&t->UltimoBloqueDatos,&data[pos],4);
+        pos+=4;
+        memcpy(&t->PrimerBloqueHash,&data[pos],4);
+        pos+=4;
+        memcpy(&t->UltimoBloqueHash,&data[pos],4);
         pos+=4;
         Tablas->push_back(t);
     }

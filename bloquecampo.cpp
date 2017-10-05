@@ -20,9 +20,9 @@ void BloqueCampo::Cargar(DataFile *arch)
     charToBloque(data);
 }
 
-void BloqueCampo::EscribirCampo(DataFile*arch,char*n,int tipo)
+void BloqueCampo::EscribirCampo(DataFile*arch,char*n,int tipo, int idc)
 {
-    Campo *c = new Campo(n, tipo);
+    Campo *c = new Campo(n, tipo,idc);
     c->IdBloquePadre = NumeroBloque;
     campos->push_back(c);
     cantCampos++;
@@ -78,6 +78,8 @@ char * BloqueCampo::toChar()
         pos+=4;
         memcpy(&data[pos],&c->IdBloquePadre,4);
         pos+=4;
+        memcpy(&data[pos],&c->IdCampo,4);
+        pos+=4;
     }
     return data;
 }
@@ -106,6 +108,8 @@ void BloqueCampo::charToBloque(char *data)
         memcpy(&c->longitud,&data[pos],4);
         pos+=4;
         memcpy(&c->IdBloquePadre,&data[pos],4);
+        pos+=4;
+        memcpy(&c->IdCampo,&data[pos],4);
         pos+=4;
         campos->push_back(c);
     }

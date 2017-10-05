@@ -29,6 +29,6 @@ set(SOURCE_FILES
         bloqueregistro.h
         jsonEstruct.cpp
         jsonEstruct.h
-        json.hpp)
+        json.hpp Entry.cpp Entry.h BloqueHashTable.cpp BloqueHashTable.h Idx_Entry.cpp Idx_Entry.h BloqueColision.cpp BloqueColision.h)
 
 add_executable(DB_MOTOR ${SOURCE_FILES})

@@ -8,12 +8,14 @@
 #include "json.hpp"
 #include "manejadortablas.h"
 
+using json = nlohmann::json;
+
 class jsonEstruct
 {
 public:
-    jsonEstruct(ManejadorTablas*,char*);
-
+    jsonEstruct(ManejadorTablas*);
     void Escribir();
+    void Leer();
 
 
 
@@ -21,8 +23,7 @@ public:
 
 
     ManejadorTablas*mt;
-    DataFile*archivo;
-
+    char*path = "..//jsonfile";
 };
 
 

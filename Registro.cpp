@@ -14,17 +14,20 @@ Registro::Registro(int tamano)
     reg[19] = '\0';
     longitud = tamano;
     regdato=0;
+    idc=-1;
 }
 
-void Registro::EscribirRegistro(char*d)
+void Registro::EscribirRegistro(char*d,int idc)
 {
     strncpy(reg, d, sizeof(reg)-1);
     reg[19] = '\0';
+    this->idc = idc;
 }
 
-void Registro::EscribirRegistro(int d)
+void Registro::EscribirRegistro(int d,int idc)
 {
     regdato=d;
+    this->idc = idc;
 }
 
 Registro::~Registro()

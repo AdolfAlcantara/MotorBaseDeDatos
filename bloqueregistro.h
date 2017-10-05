@@ -16,8 +16,13 @@ public:
 
     void Escribir(DataFile*);
     void Cargar(DataFile *);
-    void AgregarRegistro(DataFile*,char*, int tamano);
+    void AgregarRegistro(DataFile*,char*, int tamano,int idc);
     int getEspacioDisp();
+    std::list<Registro> getRegistro(int idc);
+
+    //busca la posicion nrr en que se encuentra escrito el archivo para enviarlo al Idx_Entry
+    int getPosicion(DataFile*,char*n);
+
     char *toChar();
     void fromChar(char*);
 

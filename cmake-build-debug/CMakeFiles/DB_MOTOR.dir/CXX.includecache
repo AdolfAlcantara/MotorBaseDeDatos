@@ -6,6 +6,58 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.cpp
+cstring
+-
+iostream
+-
+BloqueColision.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.h
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.h
+Idx_Entry.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.h
+datafile.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.h
+list
+-
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.cpp
+cstring
+-
+iostream
+-
+BloqueHashTable.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.h
+BloqueColision.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.h
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.h
+array
+-
+Idx_Entry.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.h
+Entry.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.h
+datafile.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.h
+vector
+-
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.cpp
+Entry.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.h
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.h
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.cpp
+cstring
+-
+Idx_Entry.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.h
+
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.h
+
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Registro.cpp
 cstdio
 -
@@ -51,6 +103,8 @@ datafile.h
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.h
 string.h
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/string.h
+list
+-
 
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloqueregistro.cpp
 iostream
@@ -157,6 +211,8 @@ vector
 -
 
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/jsonEstruct.cpp
+fstream
+-
 jsonEstruct.h
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/jsonEstruct.h
 
@@ -179,6 +235,8 @@ json.hpp
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/json.hpp
 fstream
 -
+jsonEstruct.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/jsonEstruct.h
 
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadorbloques.cpp
 manejadorbloques.h
@@ -195,6 +253,10 @@ bloquecampo.h
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloquecampo.h
 bloqueregistro.h
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/bloqueregistro.h
+BloqueHashTable.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.h
+BloqueColision.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.h
 
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/manejadortablas.cpp
 manejadortablas.h
@@ -219,6 +281,10 @@ iostream
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/tabla.h
 string.h
 -
+list
+-
 datafile.h
 C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/datafile.h
+Registro.h
+C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Registro.h
 

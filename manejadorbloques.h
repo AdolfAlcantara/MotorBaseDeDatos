@@ -4,6 +4,8 @@
 #include "bloquemaestro.h"
 #include "bloquecampo.h"
 #include "bloqueregistro.h"
+#include "BloqueHashTable.h"
+#include "BloqueColision.h"
 
 class ManejadorBloques
 {
@@ -11,6 +13,8 @@ class ManejadorBloques
         ManejadorBloques(DataFile*);
         void FormatearDataFile();
         void ActualizarBloqueMaestro();
+        void LlenarMasterBlockBucket(int, int);
+        int SigBloqueDisponible();
         virtual ~ManejadorBloques();
 
     //bloqueTabla
@@ -21,12 +25,23 @@ class ManejadorBloques
     BloqueCampo * AsigNBloqueC(Tabla*);
     void EscribirCampo(Tabla*,char*n,int tipo);
     Campo *getCampo(Tabla *t,char*n);
+    std::list<Campo*>* listarCampos(Tabla*t);
 
     //bloqueRegistros
     BloqueRegistro *AsigNBloqueR(Tabla*);
     void EscribirRegistro(Tabla*,Campo*,char*);
+    std::list<Registro*>* listarRegistros(Tabla*t,Campo*C);
+    Registro*buscarReg(Tabla*, char*n);
 
-    //protected:
+    //bloqueHashTable
+    BloqueHashTable *AsigNBloqueHT(Tabla*);
+    BloqueHashTable *CargarBloqueHT(Tabla *t);
+
+
+    //bloqueColision
+    BloqueColision *AsigNBloqueCol(BloqueHashTable*,int,Idx_Entry*);
+
+
 
     //private:
         DataFile *archivo;

@@ -122,6 +122,114 @@ DB_MOTOR/fast:
 	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/build
 .PHONY : DB_MOTOR/fast
 
+BloqueColision.obj: BloqueColision.cpp.obj
+
+.PHONY : BloqueColision.obj
+
+# target to build an object file
+BloqueColision.cpp.obj:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.obj
+.PHONY : BloqueColision.cpp.obj
+
+BloqueColision.i: BloqueColision.cpp.i
+
+.PHONY : BloqueColision.i
+
+# target to preprocess a source file
+BloqueColision.cpp.i:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.i
+.PHONY : BloqueColision.cpp.i
+
+BloqueColision.s: BloqueColision.cpp.s
+
+.PHONY : BloqueColision.s
+
+# target to generate assembly for a file
+BloqueColision.cpp.s:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueColision.cpp.s
+.PHONY : BloqueColision.cpp.s
+
+BloqueHashTable.obj: BloqueHashTable.cpp.obj
+
+.PHONY : BloqueHashTable.obj
+
+# target to build an object file
+BloqueHashTable.cpp.obj:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.obj
+.PHONY : BloqueHashTable.cpp.obj
+
+BloqueHashTable.i: BloqueHashTable.cpp.i
+
+.PHONY : BloqueHashTable.i
+
+# target to preprocess a source file
+BloqueHashTable.cpp.i:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.i
+.PHONY : BloqueHashTable.cpp.i
+
+BloqueHashTable.s: BloqueHashTable.cpp.s
+
+.PHONY : BloqueHashTable.s
+
+# target to generate assembly for a file
+BloqueHashTable.cpp.s:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/BloqueHashTable.cpp.s
+.PHONY : BloqueHashTable.cpp.s
+
+Entry.obj: Entry.cpp.obj
+
+.PHONY : Entry.obj
+
+# target to build an object file
+Entry.cpp.obj:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Entry.cpp.obj
+.PHONY : Entry.cpp.obj
+
+Entry.i: Entry.cpp.i
+
+.PHONY : Entry.i
+
+# target to preprocess a source file
+Entry.cpp.i:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Entry.cpp.i
+.PHONY : Entry.cpp.i
+
+Entry.s: Entry.cpp.s
+
+.PHONY : Entry.s
+
+# target to generate assembly for a file
+Entry.cpp.s:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Entry.cpp.s
+.PHONY : Entry.cpp.s
+
+Idx_Entry.obj: Idx_Entry.cpp.obj
+
+.PHONY : Idx_Entry.obj
+
+# target to build an object file
+Idx_Entry.cpp.obj:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.obj
+.PHONY : Idx_Entry.cpp.obj
+
+Idx_Entry.i: Idx_Entry.cpp.i
+
+.PHONY : Idx_Entry.i
+
+# target to preprocess a source file
+Idx_Entry.cpp.i:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.i
+.PHONY : Idx_Entry.cpp.i
+
+Idx_Entry.s: Idx_Entry.cpp.s
+
+.PHONY : Idx_Entry.s
+
+# target to generate assembly for a file
+Idx_Entry.cpp.s:
+	$(MAKE) -f CMakeFiles\DB_MOTOR.dir\build.make CMakeFiles/DB_MOTOR.dir/Idx_Entry.cpp.s
+.PHONY : Idx_Entry.cpp.s
+
 Registro.obj: Registro.cpp.obj
 
 .PHONY : Registro.obj
@@ -482,6 +590,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... DB_MOTOR
 	@echo ... edit_cache
+	@echo ... BloqueColision.obj
+	@echo ... BloqueColision.i
+	@echo ... BloqueColision.s
+	@echo ... BloqueHashTable.obj
+	@echo ... BloqueHashTable.i
+	@echo ... BloqueHashTable.s
+	@echo ... Entry.obj
+	@echo ... Entry.i
+	@echo ... Entry.s
+	@echo ... Idx_Entry.obj
+	@echo ... Idx_Entry.i
+	@echo ... Idx_Entry.s
 	@echo ... Registro.obj
 	@echo ... Registro.i
 	@echo ... Registro.s

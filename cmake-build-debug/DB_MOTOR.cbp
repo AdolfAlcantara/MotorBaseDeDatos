@@ -82,6 +82,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueColision.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/BloqueHashTable.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Entry.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.cpp">
+			<Option target="DB_MOTOR"/>
+		</Unit>
+		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Idx_Entry.h">
+			<Option target="DB_MOTOR"/>
+		</Unit>
 		<Unit filename="C:/Users/Chronos-Laptop/Documents/ED1/DB_MOTOR/Registro.cpp">
 			<Option target="DB_MOTOR"/>
 		</Unit>

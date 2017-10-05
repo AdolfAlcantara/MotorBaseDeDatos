@@ -2,6 +2,7 @@
 #define BLOQUEMAESTRO_H
 #include "datafile.h"
 #include "string.h"
+#include <list>
 
 class BloqueMaestro
 {
@@ -16,7 +17,7 @@ class BloqueMaestro
         int TamanoBloque=512;
         int PrimerBloqueTabla =1;
         int UltimoBloqueTabla;
-
+        std::list<int>FreeBucket;
     protected:
 
     private:

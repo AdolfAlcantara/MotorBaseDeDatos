@@ -14,7 +14,7 @@ class ManejadorTablas
         Tabla * BuscarTabla(char*nom);
         void ListarTablas();
 //        void ListarCampos();
-        void CargarTablas(BloqueTabla*);
+        std::list<Tabla*>* CargarTablas();
         void LlenarListaBloquesTabla();
 
 

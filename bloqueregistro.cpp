@@ -26,12 +26,12 @@ void BloqueRegistro::Cargar(DataFile *archivo)
     fromChar(data);
 }
 
-void BloqueRegistro::AgregarRegistro(DataFile*arch,char *d, int tamano)
+void BloqueRegistro::AgregarRegistro(DataFile*arch,char *d, int tamano, int idc)
 {
     Registro *r = new Registro(tamano);
 
     if(tamano==20) {
-        r->EscribirRegistro(d);
+        r->EscribirRegistro(d,idc);
         cantRegCad++;
     }
     else{
@@ -39,19 +39,65 @@ void BloqueRegistro::AgregarRegistro(DataFile*arch,char *d, int tamano)
         memcpy(&data[0],&d[0], sizeof(data));
         int numero;
         sscanf(data,"%id",&numero);
-        r->EscribirRegistro(numero);
+        r->EscribirRegistro(numero,idc);
         cantRegInt++;
     }
+
     registros->push_back(r);
 
 }
 
 int BloqueRegistro::getEspacioDisp()
 {
-    int tam = 16+(cantRegCad*28)+(cantRegInt*8);
+    int tam = 16+(cantRegCad*28)+(cantRegInt*12);
     return 512-tam;
 }
 
+int BloqueRegistro::getPosicion(DataFile*arch,char *n)
+{
+    int posicion = NumeroBloque*TamanoBloque;
+    char*data = arch->Leer(posicion,TamanoBloque);
+    int pos=16;
+    int contador=0;
+    do{
+        int tamano=0;
+        memcpy(&tamano,&data[pos],4);
+        pos+=4;
+        if(tamano==20){
+            char temp[20];
+            memcpy(&temp[0],&data[pos],20);
+            char *tempchar =temp;
+            if(strcmp(n,tempchar)==0){
+                return pos-4;
+            }
+            pos+=24;
+        }else{
+            int temp =0;
+            memcpy(&temp,&data[pos],4);
+            int value = atoi(n);
+            if(temp==value){
+                return pos-4;
+            }
+            pos+=8;
+        }
+        contador++;
+    }while(contador<cantRegCad+cantRegInt);
+    std::cout<<"No existe el registro "<<n<<std::endl;
+    return 0;
+
+}
+
+//necesita ser cargado antes por quien lo llama
+ std::list<Registro> BloqueRegistro::getRegistro(int idc)
+{
+    std::list<Registro>regJson;
+    for(std::list<Registro*>::iterator it=registros->begin();it!=registros->end();it++){
+        Registro*reg = *it;
+        if(reg->idc == idc){
+            regJson.push_back(*reg);
+        }
+    }
+}
 
 char *BloqueRegistro::toChar()
 {
@@ -76,6 +122,8 @@ char *BloqueRegistro::toChar()
             memcpy(&data[pos],&r->regdato,4);
             pos+=4;
         }
+        memcpy(&data[pos],&r->idc,4);
+        pos+=4;
     }
     return data;
 }
@@ -104,6 +152,8 @@ void BloqueRegistro::fromChar(char *data)
             memcpy(&reg->regdato,&data[pos],4);
             pos+=4;
         }
+        memcpy(&reg->idc,&data[pos],4);
+        pos+=4;
         registros->push_back(reg);
     }
 }
